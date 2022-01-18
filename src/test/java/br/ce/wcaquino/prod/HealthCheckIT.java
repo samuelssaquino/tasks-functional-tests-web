@@ -17,7 +17,7 @@ public class HealthCheckIT {
     public void healthCheck() throws MalformedURLException {
 
         ChromeOptions browserOptions = new ChromeOptions();
-        WebDriver driver = new RemoteWebDriver(new URL("http://192.168.43.70:4444/wd/hub"), browserOptions);
+        WebDriver driver = new RemoteWebDriver(new URL("http://192.168.43.70:4444/wd/hub"), browserOptions);q
 
         try {
 
